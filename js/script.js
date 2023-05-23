@@ -8,12 +8,12 @@ const widgetBars = document.getElementById("widgetBar");
 widgetBars.innerHTML += `
       <div class="block_deroulant">
         <a href="/index.html">Notre carte</a>
-        <a href="/html/a_propos.html">à propos</a>
-        <a href="/html/traiteur.html">Traiteur</a>
-        <a href="/html/wine.html">Carte des vins</a>
-        <a href="/html/events.html">actualités</a>
-        <a href="/html/partenaire.html">Nos partenaires</a>
-        <a href="/html/contact.html">Contact</a>
+        <a href="/a_propos.html">à propos</a>
+        <a href="/traiteur.html">Traiteur</a>
+        <a href="/wine.html">Carte des vins</a>
+        <a href="/events.html">actualités</a>
+        <a href="/partenaire.html">Nos partenaires</a>
+        <a href="/contact.html">Contact</a>
       </div>
   `;
 
