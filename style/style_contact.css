@@ -21,7 +21,7 @@ body {
 
 #formulaire {
   width: 40%;
-  background-image: url(/img/arriere-plan-background-matiere-bois-images-gratuites-1560x1040.jpg);
+  background: #333;
   color: white;
   display: flex;
   flex-direction: column;
