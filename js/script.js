@@ -7,13 +7,13 @@ const widgetBars = document.getElementById("widgetBar");
 
 widgetBars.innerHTML += `
       <div class="block_deroulant">
-        <a href="/index.html">Notre carte</a>
-        <a href="/a_propos.html">à propos</a>
-        <a href="/traiteur.html">Traiteur</a>
-        <a href="/wine.html">Carte des vins</a>
-        <a href="/events.html">actualités</a>
-        <a href="/partenaire.html">Nos partenaires</a>
-        <a href="/contact.html">Contact</a>
+        <a href="index.html">Notre carte</a>
+        <a href="a_propos.html">à propos</a>
+        <a href="traiteur.html">Traiteur</a>
+        <a href="wine.html">Carte des vins</a>
+        <a href="events.html">actualités</a>
+        <a href="partenaire.html">Nos partenaires</a>
+        <a href="contact.html">Contact</a>
       </div>
   `;
 
