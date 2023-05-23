@@ -3,7 +3,7 @@ console.log("script connecté !");
 // Menu déroulant
 
 const widgetBars = document.getElementById("widgetBar");
-//console.log(widgetBars);
+
 
 widgetBars.innerHTML += `
       <div class="block_deroulant">
@@ -18,12 +18,11 @@ widgetBars.innerHTML += `
   `;
 
 const icone = document.querySelector(".logo i");
-//console.log(icone); //OK
 const navBar = document.querySelector(".navbar-desktop");
-//console.log(navBar); //OK
+
 
 icone.addEventListener("click", function () {
-  //console.log("icone cliqué");
+
   navBar.classList.toggle("change-navbar");
   icone.classList.toggle("fa-times");
 });
@@ -33,24 +32,21 @@ icone.addEventListener("click", function () {
 // Menu chevrons
 
 const chevrons = document.querySelectorAll(".chevron");
-//console.log(accordeon); //OK
 
 chevrons.forEach((item) => {
-  //console.log(item);
+
 
   item.addEventListener("click", function () {
-    console.log("item cliqué");
+
 
     // Je sélectionne et stocke la DIV suivante de l'item cliqué
     const next = item.nextElementSibling;
-    //console.log(next);
+
 
     // Je rend visible ou non la description
     next.classList.toggle("visible");
-
     // Je cible et stocke l'icone de item
     const changeChevron = item.lastElementChild;
-    console.log(changeChevron);
     changeChevron.classList.toggle("fa-chevron-up");
   });
 });
@@ -60,7 +56,7 @@ chevrons.forEach((item) => {
 //widget réseaux sociaux
 
 const blockWidget = document.getElementById("widgets");
-//console.log(blockWidget); //OK
+
 blockWidget.innerHTML += `
   <div class="social_logo_widget ">
     <div class="widget_plus appearance">
