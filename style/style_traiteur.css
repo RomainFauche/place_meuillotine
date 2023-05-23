@@ -89,6 +89,7 @@
 /*Espace photo*/
 .photo1{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -104,4 +105,77 @@
   border-radius: 20px;  
   border: solid #f08100 5px;
 
+}
+@media all and (max-width: 1850px){
+  .article1 h2{
+    font-size: 2.5rem;
+  }
+}
+@media all and (max-width: 1550px){
+  .article1 h1{
+    font-size: 4rem;
+  }
+  .article1 h2{
+    font-size: 2rem;
+  }
+}
+@media all and (max-width: 1250px){
+  .article1 h1{
+    font-size: 3rem;
+  }
+
+  .article1 h2{
+    font-size: 1.8rem;
+  }
+  .article1 p {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+  .article2 h3{
+    font-size: 5rem;
+  }
+  .photo1{
+    flex-direction: column;
+  }
+  .photo1 img{
+    width: 100%;
+  }
+}
+@media all and (max-width: 1120px) {
+  .article1{
+    width: 80%;
+  }
+  
+  .article1 h2{
+    font-size: 1.5rem;
+  }
+  .article2 p{
+    text-align: center;
+    
+  }
+  .event_list li{
+    font-size: 1.1rem;
+  }
+  .photo1{
+    width: 80%;
+    
+  }
+}
+@media all and (max-width: 1000px) {
+  .article1 h2{
+    font-size: 1.3rem;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .article1 h1 {
+    font-size: 2rem;
+  }
+  
+  .article1 h2{
+    font-size: 1.2rem;
+    text-align: center;
+    width: 80%;
+   
+  }
 }
