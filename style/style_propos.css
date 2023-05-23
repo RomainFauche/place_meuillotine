@@ -46,43 +46,103 @@ p{
 
 
 .silhouette{
+    position: absolute;
+    z-index: -5;
+    opacity: 0.9;
+
+}
+.box_silhouette{
     display: flex;
-    justify-content: space-between;
     position: relative;
-    z-index: -1;
-    margin-top: -1000px;
-    opacity: 0.8;
-    margin-bottom: -5%;
+    top: 20rem; 
 }
 
+.box_silhouette img{
+    width: 700px;
+}
+
+.space{
+    padding: 0 45rem 0 10rem;
+}
+.women{
+    margin-right: 3rem;
+}
 .women img{
-    display: flex;
-    justify-content: center;
-    height: 1300px;
-    width: 1100px;
-    right: 32%;
+    transform: scaleX(-1);
+}
+
+@media all and (max-width: 2400px) {
+
+    .space{
+        padding: 0 35rem 0 10rem;
+    }  
+}
+
+@media all and (max-width: 2200px) {
+
+    .space{
+        padding: 0 25rem 0 5rem;
+    }
     
 }
 
-.cook img{
-    display: flex;
-    justify-content: center;
-    height: 1200px;
-    width: 1000px;
-    left: 210px;
-}
-@media all and (max-width: 2000px) {
-
+@media all and (max-width: 1950px) {
     h1{
-        font-size: 3.5rem;
-        margin-top: 4%;
+        font-size: 3rem;
     }
-    .women img{
+    .space{
+        padding: 0 25rem 0 8rem
+    }
+    .box_silhouette img{
+        width: 500px;
+    }
+}
+@media all and (max-width:1600px){  
+    .box_silhouette{
+        display: none;
+    }
+    article{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    h1{
+        font-size: 2rem;
+    }
+}
+
+@media all and (max-width: 950px) {
+    h1{
+        font-size: 1.5rem;
+    }
+}
+@media all and (max-width: 800px) {
+    h1{
+        font-size: 1.5rem;
+        letter-spacing: 0;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+}
+@media all and (max-width: 700px) {
+    
+    h2{
+        font-size: 1rem;
+    }
+    p{
         width: 90%;
-        right: 20%;
     }
-    .cook img{
-        width: 900px;
-        left: 150px;
+}
+@media all and (max-width: 500px) {
+    h1{
+        font-size: 1.2rem;
+        letter-spacing: 0;
+    }
+    h2{
+        font-size: 0.95rem;
+        
+        font-weight:bold;
     }
 }
