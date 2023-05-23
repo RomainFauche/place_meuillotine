@@ -1,10 +1,10 @@
 @font-face {
   font-family: tahu;
-  src: url(/fonts/Tahu!.ttf);
+  src: url(/fonts/Tahu!.ttf) format('truetype');
 }
 @font-face {
   font-family: coolvetica;
-  src: url(/fonts/coolvetica\ rg.otf);
+  src: url(/fonts/coolvetica\ rg.otf) format('truetype');
 }
 
 .container-traiteur {
