@@ -1,6 +1,6 @@
 @font-face {
   font-family: tahu;
-  src: url(fonts/Tahu!.ttf);
+  src: url(/fonts/Tahu!.ttf);
 }
 @font-face {
   font-family: coolvetica;
@@ -23,7 +23,7 @@
   letter-spacing: 8px;
   white-space: nowrap;
   text-transform: uppercase;
-  font-family: coolvetica;
+  font-family: coolvetica !important;
   margin-bottom: 5%;
 }
 
@@ -48,7 +48,7 @@
 }
 .article2 h3{
   font-size: 6rem;
-  font-family: tahu;
+  font-family: tahu !important;
   font-weight: 100;
   display: flex;
   margin-bottom: 2%;  
