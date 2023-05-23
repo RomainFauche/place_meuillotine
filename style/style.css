@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Oswald:wght@600&display=swap');
+/*font-family: 'Oswald', sans-serif;*/
 * {
   margin: 0;
   padding: 0;
@@ -13,10 +15,7 @@ body {
   background-color: #eee; /*Couleur provisoire aller sur une couleur ardoise */
 }
 
-@font-face {
-  font-family: coolvetica;
-  src: url(/fonts/coolveticarg.otf) format('truetype');
-}
+
 
 .container {
   height: 30%;
@@ -183,7 +182,7 @@ a {
 .title_menu {
   display: flex;
   justify-content: center;
-  font-family: coolvetica;
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   letter-spacing: 7px;
   font-size: 4rem;

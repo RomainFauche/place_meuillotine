@@ -1,7 +1,7 @@
-@font-face {
-    font-family: coolvetica;
-    src: url(/fonts/coolvetica\ rg.otf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Oswald:wght@600&display=swap');
+
+/*font-family: 'Allura', cursive;*/
+/*font-family: 'Oswald', sans-serif;*/
 
 main{
     display: flex;
@@ -15,7 +15,7 @@ main{
     margin-bottom: 2%;
 }
 .events_title h1{
-    font-family: coolvetica;
+    font-family: 'Oswald', sans-serif;
     font-weight: 100;
     letter-spacing: 4px;
     font-size: 4.5rem;
