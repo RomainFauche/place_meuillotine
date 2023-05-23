@@ -1,0 +1,45 @@
+@font-face {
+    font-family: coolvetica;
+    src: url(/fonts/coolvetica\ rg.otf);
+}
+
+.text_partenaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4%;
+}
+.text_partenaire h1{
+    margin-bottom: 2%;
+    font-family: coolvetica;
+    font-size: 4rem;
+    font-weight: 100;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.text_partenaire h2{
+    margin-bottom: 2%;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.text_partenaire p{
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: center;
+}
+
+.block_partenaire{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   margin-bottom: 5%;
+}
+.block_partenaire a{
+    margin: 6% 6% 8% 6%;
+
+}
+
+.block_partenaire img{
+    width: 100%;
+}

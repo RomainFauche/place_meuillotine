@@ -1,0 +1,111 @@
+@font-face {
+  font-family: tahu;
+  src: url(/fonts/Tahu!.ttf);
+}
+@font-face {
+  font-family: coolvetica;
+  src: url(/fonts/coolvetica\ rg.otf);
+}
+
+.container-traiteur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.article1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.article1 h1 {
+  font-size: 6rem;
+  letter-spacing: 8px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-family: coolvetica;
+  margin-bottom: 5%;
+}
+
+.article1 h2{
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 8%;
+}
+.article1 p{
+  font-size: 2rem;
+  font-weight: 300;
+  width: 130%;
+  text-align: justify;
+  margin-bottom: 2%;
+}
+
+.article2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.article2 h3{
+  font-size: 6rem;
+  font-family: tahu;
+  font-weight: 100;
+  display: flex;
+  margin-bottom: 2%;  
+}
+
+.article2 p{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.event_list{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.article2 h4{
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 3%;
+}
+.event_list li{
+  font-size: 1.5rem;
+  font-weight: 600;
+  white-space: nowrap;
+  padding: 1% 2%;
+  margin: 0 1% 2% 1%;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
+  border-radius: 40px;
+}
+.event_list .background{
+  background-color: #f08100;
+  color: white;
+}
+.event_list .empty{
+  border: #f08100 solid 2px;
+  color: #f08100;
+}
+
+/*Espace photo*/
+.photo1{
+  display: flex;
+  justify-content: center;
+}
+
+.photo1 img{
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
+  object-fit:cover;
+  width: 100%;
+  height: 550px;
+  margin-left: 1%;
+  margin-right: 1%;
+  position: relative;
+  z-index: -1;
+  border-radius: 20px;  
+  border: solid #f08100 5px;
+
+}

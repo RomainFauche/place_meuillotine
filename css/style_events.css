@@ -1,0 +1,53 @@
+@font-face {
+    font-family: coolvetica;
+    src: url(/fonts/coolvetica\ rg.otf);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+.events_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.events_title h1{
+    font-family: coolvetica;
+    font-weight: 100;
+    letter-spacing: 4px;
+    font-size: 4.5rem;
+    margin-bottom: 2%;
+}
+.events_title h2{
+    font-size: 2.6rem;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+.events_title p{
+    width: 60%;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+.events_img{
+    display: flex;
+    justify-content: space-around;
+}
+.events_img img{
+    width: 500px;
+    animation: slideBottom 1s ease 0s 1 normal forwards;
+}
+    
+@keyframes slideBottom {
+	0% {
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
