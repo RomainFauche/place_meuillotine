@@ -99,7 +99,7 @@
 .photo1 img{
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
   object-fit:cover;
-  width: 100%;
+  width: 30%;
   height: 550px;
   margin-left: 1%;
   margin-right: 1%;
