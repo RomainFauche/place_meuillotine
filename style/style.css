@@ -551,9 +551,13 @@ footer {
   }
 }
 @media all and (max-width: 470px) {
+  .title_menu{
+    margin-top: 2rem;
+  }
   .logo i {
     font-size: 2rem;
   }
+
   .logo-png img{
     width: 130px;
   }
