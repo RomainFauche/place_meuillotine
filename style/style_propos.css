@@ -143,10 +143,12 @@ p{
     h1{
         font-size: 1.2rem;
         letter-spacing: 0;
+        width: 90%;
+        margin-top: 2rem;
     }
     h2{
         font-size: 0.95rem;
-        
+        width: 90%;
         font-weight:bold;
     }
     main h1{
@@ -154,5 +156,6 @@ p{
     }
     article p{
         font-size: 1rem;
+        width: 90%;
     }
 }
