@@ -341,7 +341,13 @@ footer {
 .social i {
   color: rgb(255, 240, 240);
 }
-
+ .signature{
+  color: white;
+  position: absolute;
+  margin-bottom: -50px;
+  
+  right: 8px;
+ }
 /* Style pour résolution max : 2200px */
 
 @media all and (max-width: 2200px) {
@@ -457,7 +463,9 @@ footer {
   .banniere img {
     height: 145px;
   }
-
+  .return{
+    white-space: normal;
+  }
   .btn span {
     font-size: 0.8rem;
   }
@@ -548,6 +556,10 @@ footer {
   }
   .banniere img {
     height: 100px;
+  }
+  .signature{
+    font-size: 0.7rem;
+    margin-bottom: -25px;
   }
 }
 @media all and (max-width: 470px) {

@@ -112,6 +112,8 @@ blockContact.innerHTML += `
   <i class="fa-regular fa-envelope"> </i>
   <h5 class="contact-title">Contactez-nous</h5>
 </a>
+
+
 `;
 
 // Début du formulaire
