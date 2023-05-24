@@ -191,9 +191,11 @@
   }
   .article2 p{
     font-size: 1.1rem;
+    width: 90%;
   }
   .article2 h4{
     font-size: 1.1rem;
+    width: 90%;
   }
 }
 @media all and (max-width: 500px){
