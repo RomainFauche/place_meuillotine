@@ -51,3 +51,53 @@ main{
 		transform: translateY(0);
 	}
 }
+@media all and (max-width: 1600px){
+    .events_title h1{
+        text-align: center;
+        width: 85%;
+    }
+    .events_title p{
+        width: 90%;
+    }
+}
+@media all and (max-width: 1150px){
+    .events_title h1{
+        font-size: 2.2rem;
+    }
+
+    .events_title h2{
+        width: 85%;
+        text-align: center;
+        white-space: normal;
+        font-size: 2rem;
+        
+    }
+
+    .events_title p {
+        font-size: 1.2rem;
+    }
+
+    .events_img img{
+        width: 300px;
+    }
+}
+
+@media all and (max-width: 900px){
+    .events_title h1{
+        margin-top: 2rem;
+        font-size: 1.9rem;
+    }
+
+    .events_title h2{
+        font-size: 1.7rem;
+    }
+}
+@media all and (max-width: 700px){
+    .events_img{
+        flex-direction: column;
+        align-items: center;
+    }
+    .events_img img{
+        width: 85%;
+    }
+}

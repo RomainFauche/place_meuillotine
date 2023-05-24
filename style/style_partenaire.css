@@ -43,3 +43,36 @@
 .block_partenaire img{
     width: 100%;
 }
+@media all and (max-width: 1900px){
+    .text_partenaire h1{
+        text-align: center;
+        width: 85%;
+    }
+}
+@media all and (max-width: 1150px){
+    .text_partenaire h1{
+        font-size: 2.8rem;
+    }
+    .text_partenaire h2{
+        white-space: normal;
+        text-align: center;
+        width: 80%;
+    }
+    .text_partenaire p{
+        width: 90%;
+        font-size: 1.2rem;
+    }
+}
+@media all and (max-width: 700px){
+    .text_partenaire h1{
+        font-size: 2rem;
+        margin-top: 1.5rem;
+    }
+    .text_partenaire h2{
+        font-size: 1.3rem;
+        width: 90%;
+        font-weight: 600;
+    }
+    
+
+}

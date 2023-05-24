@@ -174,23 +174,25 @@
 @media all and (max-width: 850px) {
   .article1 h1 {
     font-size: 2rem;
+    margin-top: 2rem;
   }
   
   .article1 h2{
     font-size: 1.2rem;
+    font-weight: 600;
       
   }
   .article1 p{
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .article2 h3{
-    font-size: 2.8rem;
+    font-size: 2.3rem;
   }
   .article2 p{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .article2 h4{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 }

@@ -584,4 +584,8 @@ footer {
   .return {
     white-space: normal;
   }
+  .entree{ 
+    width: 100%;
+    text-align: center;
+  }
 }
