@@ -115,6 +115,8 @@ p{
 @media all and (max-width: 950px) {
     h1{
         font-size: 1.5rem;
+        white-space: normal;
+        text-align: center;
     }
 }
 @media all and (max-width: 800px) {
@@ -124,6 +126,8 @@ p{
     }
     h2{
         font-size: 1.3rem;
+        white-space: normal;
+        text-align: center;
     }
 }
 @media all and (max-width: 700px) {

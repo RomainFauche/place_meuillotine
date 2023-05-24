@@ -196,3 +196,14 @@
     font-size: 1.1rem;
   }
 }
+@media all and (max-width: 500px){
+  .article1 h1{
+    font-size: 1.5rem;
+  }
+  .article1 h2{
+    font-size: 1rem;
+  }
+  .event_list li{
+    font-size: 1rem;
+  }
+}
